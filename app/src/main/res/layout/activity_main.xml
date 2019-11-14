@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="40dp"
+        android:gravity="center_horizontal"
+        android:text="Aplicação de Sensores"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/buttonProx"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="40dp"
+        android:text="PROXIMIDADE" />
+
+    <Button
+        android:id="@+id/buttonAcel"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity = "center"
+        android:layout_marginBottom="40dp"
+        android:text="ACELERÔMETRO" />
+
+    <Button
+        android:id="@+id/buttonLuz"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"
+        android:text="LUZ" />
+
+    <Button
+        android:id="@+id/buttonGiro"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_marginBottom="40dp"
+        android:text="GIROSCÓPIO" />
+
+</LinearLayout>
