@@ -8,7 +8,7 @@
     tools:context=".MainGiroscopio">
 
     <TextView
-        android:id="@+id/giro1"
+        android:id="@+id/gA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -17,7 +17,7 @@
         android:text="TextView" />
 
     <TextView
-        android:id="@+id/giro2"
+        android:id="@+id/gB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -25,7 +25,7 @@
         android:text="TextView" />
 
     <TextView
-        android:id="@+id/giro3"
+        android:id="@+id/gC"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

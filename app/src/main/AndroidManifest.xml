@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainGiroscopio"></activity>
-        <activity android:name=".MainLuz" />
+        <activity android:name=".MainLuminosidade" />
         <activity android:name=".MainAcelerometro" />
         <activity android:name=".MainProximidadeActivity" />
         <activity android:name=".MainActivity">
